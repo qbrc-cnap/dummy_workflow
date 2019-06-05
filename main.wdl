@@ -32,7 +32,7 @@ task sleep {
     }
 
     runtime {
-        docker: "docker.io/debian/debian:stretch"
+        docker: "docker.io/blawney/kallisto:v0.0.1"
         cpu: 2
         memory: "4 G"
         disks: "local-disk " + disk_size + " HDD"
