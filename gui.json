@@ -1,0 +1,12 @@
+{
+  "input_elements":[
+    {
+      "target":"Main.z",
+      "display_element": {
+        "type": "text",
+        "label": "Text entry:",
+        "description": "Just enter some text"
+      }
+    }
+  ]
+}
