@@ -32,7 +32,7 @@ task sleep {
     }
 
     runtime {
-        docker: "docker.io/debian:stretch"
+        docker: "docker.io/debian/debian:stretch"
         cpu: 2
         memory: "4 G"
         disks: "local-disk " + disk_size + " HDD"
