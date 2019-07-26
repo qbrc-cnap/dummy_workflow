@@ -32,9 +32,9 @@ task sleep {
     }
 
     runtime {
-        docker: "docker.io/debian:stretch"
+        docker: "docker.io/blawney/basic_debian:v0.1"
         cpu: 2
-        memory: "4 G"
+        memory: "2 G"
         disks: "local-disk " + disk_size + " HDD"
         preemptible: 0
     }
