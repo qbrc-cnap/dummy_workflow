@@ -1,5 +1,6 @@
 workflow Main {
     String z
+    String other
 
     call sleep {
         input:

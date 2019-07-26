@@ -7,6 +7,18 @@
         "label": "Text entry:",
         "description": "Just enter some text"
       }
+    },
+    {
+      "target": {
+        "target_ids":["Main.other"],
+        "name": "other_input",
+        "handler": "input_handler.py"
+      },
+      "display_element": {
+        "type": "text",
+        "label": "More text entry:",
+        "description": "Just enter some more text.  This text will be capitalized."
+      }
     }
   ]
 }
